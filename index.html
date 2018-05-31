@@ -3,44 +3,146 @@
 <head>
   <meta charset="utf-8">
   <title>Julien Henry</title>
+  
+  
+  <style>
+body 
+	{
 
-  <link href="style.css" rel="stylesheet">
+	}
+
+.texte 
+	{
+
+    margin: auto;
+    width: 650px;	
+    text-align: justify;
+	margin-top:20px ;
+	margin-down:20px ;
+	}
+
+	
+div.imagewrapper{
+    width: 80%;
+    margin: 0 auto;
+	margin-top: 20px ;
+    height:100%;
+    text-align: center; 
+}
+
+
+div.mask {
+    position:relative;
+    height:180px;
+    width:240px; 
+    box-shadow:0 0 1px #000;
+    border:5px solid #f6f6f6;
+    overflow:hidden;
+    float:left; /* delete this */
+    margin:15px;
+    display: inline-block; /* add this */
+}	
+	
+div.gallery {
+    margin-top: 5px ;
+    margin-down: 5px ;
+	margin-left: 50px ;
+	margin-right: 50px ;
+    border: 1px solid #ccc;
+
+    width: 300px;
+
+    overflow:hidden;
+    display: inline-block;	
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 90%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+	
+}
+
+<!-- <link href="style.css" rel="stylesheet">  -->
+</style>
+ 
+ 
 </head>
+
+
+
+
 <body>
  
- <h1>Julien Henry</h1>
- 
- <h2>tl;dr</h2>
- 
-<p>
-<ul>
+			<h1 class="texte">Julien Henry</h1>
+<br/><br/><br/><br/>
+
+		<h2 class="texte">tl;dr</h2>
+
+<ul class="texte">
 <li>Diplôme de technicien superieur en informatique et réseaux (CESI Orléans) </li>
 <li>Reprise d'étude, déménagement à Tours et Master2 en sociologie </li>
 <li>Autoformation dans la création de jeux vidéo, développement solo et release d'un jeu sur Steam </li>
 
 </ul>
-</p>
 
+<br/><br/><br/><br/>
+		<h2 class="texte">autobio</h2>
 
- <h2>autobio</h2>
-
- <p class="texte">
+<p class="texte">
 Après un bac littéraire j'ai travaillé quelques années et fait une 
 formation de technicien de maintenance en informatique, en alternance 
 auprès du CESI, en travaillant dans l'entreprise Cigma à Orléans. 
 </p>
 
-[ A la même époque j'ai lancé un fanzine de BD avec des amis, RIP COMIX. 
-Nous avons ensuite produit un site pour mettre les BD en ligne. Cela 
-a été l'occasion de découvrir quelques notions de HTML, l'hébergement et les transferts FTP ]
 
-<p>
+<div class="imagewrapper">
+<div class="gallery">
+  <a target="_blank" href="http://mkd-games.com/wp-content/uploads/2018/05/Ripcomix01.jpg">
+    <img src="http://mkd-games.com/wp-content/uploads/2018/05/Ripcomix01.jpg" >
+  </a>
+  <div class="desc">A la même époque j'ai lancé un fanzine de BD avec des amis, RIP COMIX. 
+  <br /> <em>(image : la couverture du numéro 1)</em>
+  </div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="http://mkd-games.com/wp-content/uploads/2018/05/Ripcomix_Site.png">
+    <img src="http://mkd-games.com/wp-content/uploads/2018/05/Ripcomix_Site.png" >
+  </a>
+  <div class="desc">Nous avons ensuite produit un site pour mettre les BD en ligne. Cela 
+a été l'occasion de découvrir quelques notions de HTML, l'hébergement et les transferts FTP. 
+<br /> <em>(image : la 2ème version du site, basée sur une technologie wiki)</em>
+</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="http://mkd-games.com/wp-content/uploads/2018/05/Ripcomix34b.jpg">
+    <img src="http://mkd-games.com/wp-content/uploads/2018/05/Ripcomix34b.jpg" >
+  </a>
+  <div class="desc"><em>(image : une page de BD)</em>
+  </div>
+</div>
+
+</div>
+
+
+ 
+ <p class="texte">
 J'ai ensuite déménagé à Tours pour reprendre des études "classiques", les 
 financer en travaillant comme surveillant dans plusieurs établissements scolaires, 
 et obtenu un master 2 en sociologie. 
 </p>
 
-<p>
+ <p class="texte">
 Pendant ce temps j'ai aussi commencé à apprendre à développer des jeux vidéo. D'abord 
 en utilisant GameMaker, logiciel de création de jeu en 2D utilisant un langage de 
 programmation dédié (le GML). C'était très difficile et le résultat était loin 
@@ -49,60 +151,180 @@ d'être parfait, mais le GML est un bon moyen de débuter
 auprès des autres utilisateurs) et j'ai quand même fait des progrès rapides.
 </p>
 
-[ Cyrano sur GM ]
+<div class="imagewrapper">
+<div class="gallery">
+  <a target="_blank" href="http://mkd-games.com/wp-content/uploads/2018/05/screenshot.png">
+    <img src="http://mkd-games.com/wp-content/uploads/2018/05/screenshot.png" >
+  </a>
+  <div class="desc"> Je travaillais sur un RPG basé sur Cyrano de Bergerac, <em>Cyrano contre les ninjas</em>.
+  </div>
+</div>
 
-<p>
+<div class="gallery">
+  <a target="_blank" href="http://mkd-games.com/wp-content/uploads/2018/05/index.png">
+    <img src="http://mkd-games.com/wp-content/uploads/2018/05/index.png" >
+  </a>
+  <div class="desc"><em>(image : mon espace de travail sous GameMaker)</em>
+</div>
+</div>
+</div>
+
+ <p class="texte">
 GameMaker était sans doute suffisant pour mon projet, mais j'ai ensuite pris 
 la décision de concentrer mes efforts sur le moteur Unity, qui semblait alors 
 s'établir comme moteur dominant le milieu du développement indépendant, et qui me permettrait 
 de travailler sur des jeux en 3D, et avec des langages de programmation standards.
 </p>
 
-[ Cyrano sur Unity ]
 
-<p>
-J'ai recommencé mon projet sur Unity, en programmant en javascript. Le projet avançait alors 
+ <p class="texte">
+J'ai recommencé mon projet sur Unity, en programmant en Javascript. Le projet avançait alors 
 difficilement, je commençais à me laisser déborder par l'ampleur de ce qu'il me fallait apprendre 
-(en plus du javascript, il fallait apprendre toutes les possibilités de Unity, 
+(en plus du Javascript, il fallait apprendre toutes les possibilités de Unity, 
 et au niveau artistique produire des graphismes, animations, sons...). 
 </p>
+	<div class="imagewrapper">
+<div class="gallery">
+  <a target="_blank" href="http://mkd-games.com/wp-content/uploads/2018/05/Screenshot_2016-03-05-03-21-52.png">
+    <img src="http://mkd-games.com/wp-content/uploads/2018/05/Screenshot_2016-03-05-03-21-52.png" >
+  </a>
+  <div class="desc"> <em>Cyrano</em> refait sous Unity. Pour les graphismes j'utilisais des éléments de provenances diverses : 
+  <br>
+  <em>Ici les personnages jouables sont basés sur un projet de BD dessiné par un ami </em>
+  </div>
+</div>
 
-[ Cyrano graphs récup ]
+<div class="gallery">
+  <a target="_blank" href="http://mkd-games.com/wp-content/uploads/2018/05/Screenshot_2016-03-05-03-21-05.png">
+    <img src="http://mkd-games.com/wp-content/uploads/2018/05/Screenshot_2016-03-05-03-21-05.png" >
+  </a>
+  <div class="desc">  <em>
+  Sur ce screenshot, le garde est un collage 
+  depuis un tableau de Rembrandt, l'Homme au casque d'or.</em>
+</div>
+</div>
 
-<p>
+<div class="gallery">
+  <a target="_blank" href="http://mkd-games.com/wp-content/uploads/2018/05/auberge.png">
+    <img src="http://mkd-games.com/wp-content/uploads/2018/05/auberge.png" >
+  </a>
+  <div class="desc"><em>L'aubergiste est un collage depuis un film tombé dans le domaine public.</em>
+</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="http://mkd-games.com/wp-content/uploads/2018/05/Screenshot_2016-03-05-03-20-13.png">
+    <img src="http://mkd-games.com/wp-content/uploads/2018/05/Screenshot_2016-03-05-03-20-13.png" >
+  </a>
+  <div class="desc"> <em>La carte de la première ville.</em>
+  </div>
+</div>
+
+
+	</div>
+
+ <p class="texte">
 J'ai ensuite travaillé sur un projet de Metroidvania (jeu de plate-forme/action avec 
 des éléments d'aventure et dont le déroulement est non linéaire) en 2D, dont je voulais faire les graphismes 
 moi-même en pixel art low-rez. 
 </p>
 
-[ Cape Bleue ] 
+<div class="imagewrapper">
+<div class="gallery">
+  <a target="_blank" href="http://mkd-games.com/wp-content/uploads/2018/05/UI-Test-shadowEffect.png">
+    <img src="http://mkd-games.com/wp-content/uploads/2018/05/UI-Test-shadowEffect.png" >
+  </a>
+  <div class="desc"> Dans <em>Cape Bleue</em>, on dirige un personnage qui peut sauter, donner des coups d'épée, etc.
+  Il faut rendre service aux habitants du village et accomplir des quêtes pour eux.
+  </div>
+</div>
 
-<p>
+<div class="gallery">
+  <a target="_blank" href="https://3.bp.blogspot.com/-w8U4akhx3R4/V8fOpUiEGAI/AAAAAAAAA8I/JI-I_nUp4645iEcTKls9Tk9a7TvSInD0wCLcB/s1600/CapeBleue_8.png">
+    <img src="https://3.bp.blogspot.com/-w8U4akhx3R4/V8fOpUiEGAI/AAAAAAAAA8I/JI-I_nUp4645iEcTKls9Tk9a7TvSInD0wCLcB/s1600/CapeBleue_8.png" >
+  </a>
+  <div class="desc">Au cours du jeu, on débloque des pouvoirs qui permettent d'accéder à de nouvelles zones.
+</div>
+</div>
+</div>
+
+ <p class="texte">
 Pour ce projet j'ai décidé d'utiliser un plugin de visual scripting basé sur une logique de finite state machine (FSM), Playmaker, de façon extensive, 
 puisqu'il me permettait de produire rapidement les scripts dont j'avais besoin, et pouvoir me consacrer 
 davantage aux autres (nombreuses) tâches nécessaires à la conception d'un jeu vidéo.</p>
 
-<p>
+ <p class="texte">
 J'ai appris énormément de choses en travaillant sur ce jeu: 
-<ul>
-<li> -faire des graphismes (sprites et décors) et des animations. Les exporter et les utiliser dans Unity </li>
-<li> -créer et programmer des éléments d'UI (barres de vie et infos sur l'écran principal, écrans d'options, écran de gestion de l'inventaire, etc.) </li>
-<li> -gérer l'UX de façon extrèmement fine (le jeu est en temps réel, le rythme et la durée de chaque action doivent 
+<ul class="texte">
+<li> faire des graphismes (sprites et décors) et des animations. Les exporter et les utiliser dans Unity </li>
+<li> créer et programmer des éléments d'UI (barres de vie et infos sur l'écran principal, écrans d'options, écran de gestion de l'inventaire, etc.) </li>
+<li> gérer l'UX de façon extrêmement fine (le jeu est en temps réel, le rythme et la durée de chaque action doivent 
 donc être réglés parfaitement) </li>
-<li> -planifier à l'avance et faire toutes les tâches d'un projet important (impliquant des centaines d'éléments de graphismes, des centaines de scripts, etc.) </li>
-<li> -developper des scripts (en FSM) parfois complexes, tout en se préoccupant toujours de la maintenabilité du code, et des performances in game. </li>
+<li> planifier à l'avance et faire toutes les tâches d'un projet important (impliquant des centaines d'éléments de graphismes, des centaines de scripts, etc.) </li>
+<li> développer des scripts (en FSM) parfois complexes, tout en se préoccupant toujours de la maintenabilité du code, et des performances in game. </li>
 </ul>
+</p>
 
-[ cape bleue dev pics ]
+<div class="imagewrapper">
 
-<p>
+<div class="gallery">
+  <a target="_blank" href="http://mkd-games.com/wp-content/uploads/2018/05/devScreen4.png">
+    <img src="http://mkd-games.com/wp-content/uploads/2018/05/devScreen4.png" >
+  </a>
+  <div class="desc"><em> Un script pour Cape Bleue réalisé avec Playmaker. </em>
+  </div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="http://mkd-games.com/wp-content/uploads/2018/05/pyxelEdit.png">
+    <img src="http://mkd-games.com/wp-content/uploads/2018/05/pyxelEdit.png" >
+  </a>
+  <div class="desc"><em> L'animation d'un sprite avec Pyxel Edit. </em>
+  </div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="https://4.bp.blogspot.com/-qkX12q23_Vc/V8fOov7sAHI/AAAAAAAAA7g/R8CFmY-N7oEcETVsGgQ7mKvgneFllibngCLcB/s1600/CapeBleue_11.png">
+    <img src="https://4.bp.blogspot.com/-qkX12q23_Vc/V8fOov7sAHI/AAAAAAAAA7g/R8CFmY-N7oEcETVsGgQ7mKvgneFllibngCLcB/s1600/CapeBleue_11.png" >
+  </a>
+  <div class="desc">Un dialogue dans <em> Cape Bleue</em>.
+  </div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="https://1.bp.blogspot.com/-sFogMK-e_6c/V8fOpkypEMI/AAAAAAAAA8M/aKg9fi6GnKE48jTdMrWaO7YJ5eW54E6mACLcB/s1600/CapeBleue_9.png">
+    <img src="https://1.bp.blogspot.com/-sFogMK-e_6c/V8fOpkypEMI/AAAAAAAAA8M/aKg9fi6GnKE48jTdMrWaO7YJ5eW54E6mACLcB/s1600/CapeBleue_9.png" >
+  </a>
+  <div class="desc"> 
+</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="https://2.bp.blogspot.com/-pLZCsDv5It4/V8fOorH2dPI/AAAAAAAAA7k/5qbC5QZmitIQyGBJ1vJ2toseJU_jxCPnwCLcB/s1600/CapeBleue_10.png">
+    <img src="https://2.bp.blogspot.com/-pLZCsDv5It4/V8fOorH2dPI/AAAAAAAAA7k/5qbC5QZmitIQyGBJ1vJ2toseJU_jxCPnwCLcB/s1600/CapeBleue_10.png" >
+  </a>
+  <div class="desc"> 
+</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="https://4.bp.blogspot.com/-q0KKTP6iB24/V8fOo5N7PUI/AAAAAAAAA7s/PlmjT7K7cQUBHXh5qUfZGrVy5C3-uFc5wCLcB/s1600/CapeBleue_12.png">
+    <img src="https://4.bp.blogspot.com/-q0KKTP6iB24/V8fOo5N7PUI/AAAAAAAAA7s/PlmjT7K7cQUBHXh5qUfZGrVy5C3-uFc5wCLcB/s1600/CapeBleue_12.png" >
+  </a>
+  <div class="desc"> 
+</div>
+</div>
+
+</div>
+
+ <p class="texte">
 A ce moment j'avais obtenu mon Master2 en sociologie, je cherchais du travail comme 
 chargé de mission en sociologie (concevoir ou participer à des enquêtes), et 
-je voyais que les places étaient extrèmement rares et difficiles à obtenir, et presque toujours 
+je voyais que les places étaient extrêmement rares et difficiles à obtenir, et presque toujours 
 pour des missions courtes telles que celles que j'avais réussi à obtenir auparavant. 
 </p>
 
-<p>
+ <p class="texte">
 J'ai décidé de commencer un autre projet de jeu, à l'ampleur plus raisonnable (concernant le 
 nombre d'éléments graphiques et la quantité d'interactions possibles) pour pouvoir le terminer 
 seul en moins d'un an. La direction artistique visait à faire quelque chose de simple (donc 
@@ -110,19 +332,66 @@ relativement rapide à produire) en 3D, en choisissant avec soin les couleurs et
 pour avoir un résultat de niveau professionnel et une esthétique intéressante.
 </p>
 
-[ voxel baller]
+<div class="imagewrapper">
 
-<p>
+<div class="gallery">
+  <a target="_blank" href="https://1.bp.blogspot.com/-U1OiWvM7Km0/WLgWX26ZfCI/AAAAAAAABEs/BzLNkG2UHasDzQzacE05bFrA3NBDiUrgQCLcB/s1600/level19.png">
+    <img src="https://1.bp.blogspot.com/-U1OiWvM7Km0/WLgWX26ZfCI/AAAAAAAABEs/BzLNkG2UHasDzQzacE05bFrA3NBDiUrgQCLcB/s1600/level19.png" >
+  </a>
+  <div class="desc"><em> Voxel Baller</em> est un casse-brique brique en 3D réalisé sous Unity, dont j'ai fait les graphismes en voxels. 
+  </div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="https://2.bp.blogspot.com/-wR51A0cPbXo/WLgWYxH9GZI/AAAAAAAABE0/wl6iy14yruoqS0tt8eVAU7G0Gfx3N4YQACLcB/s1600/level6.png">
+    <img src="https://2.bp.blogspot.com/-wR51A0cPbXo/WLgWYxH9GZI/AAAAAAAABE0/wl6iy14yruoqS0tt8eVAU7G0Gfx3N4YQACLcB/s1600/level6.png" >
+  </a>
+  <div class="desc">Le niveau 6 de <em>Voxel Baller. </em>
+  </div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="https://3.bp.blogspot.com/-mIxR9BKS-l4/WLgWXKQMI_I/AAAAAAAABEk/7GNRN2ww8eUi1eoV5RkdUFmKpCpbNdI_ACLcB/s1600/level24.png">
+    <img src="https://3.bp.blogspot.com/-mIxR9BKS-l4/WLgWXKQMI_I/AAAAAAAABEk/7GNRN2ww8eUi1eoV5RkdUFmKpCpbNdI_ACLcB/s1600/level24.png" >
+  </a>
+  <div class="desc">Le niveau 24 de <em>Voxel Baller. </em>
+  </div>
+</div>
+
+</div>
+
+ <p class="texte">
 En dehors de la 3D, je n'ai utilisé que des techniques que je connaissais déjà pour les 
 avoir connu pendant le développement de Cape Bleue, le projet a donc pu avancer et être mené à bien.
-J'ai créé une structure qui me permettrait de le sortir sur Steam (MKD games, en auto entreprise), un site (LINK), 
-un blog pour montrer mes travaux (LINK) et je me suis familiarisé avec certains sites et réseaux 
-sociaux (twitter (LINK), Reddit, Imgur). 
+J'ai créé une structure qui me permettrait de le sortir sur Steam (MKD games, en auto entreprise), 
+<a href="http://mkd-games.com/">un site</a>, 
+<a href="https://mkdgames.blogspot.com/">un blog pour montrer mes travaux</a> et 
+je me suis familiarisé avec certains sites et réseaux sociaux (<a href="https://twitter.com/MKD_games">sur Twitter</a>, Reddit, Imgur). 
+
+
 </p>
 
-[ voxel baller promo ]  
+<div class="imagewrapper">
 
-<p>
+<div class="gallery">
+  <a target="_blank" href="https://4.bp.blogspot.com/-JJfVVRu4PTg/WqioZfDMySI/AAAAAAAABTA/DuXOMotVs8M428sEX2Nzmvh2sBkPrPVnQCLcBGAs/s1600/steamPage.png">
+    <img src="https://4.bp.blogspot.com/-JJfVVRu4PTg/WqioZfDMySI/AAAAAAAABTA/DuXOMotVs8M428sEX2Nzmvh2sBkPrPVnQCLcBGAs/s1600/steamPage.png" >
+  </a>
+  <div class="desc"><em> Voxel Baller</em> est sorti sur Steam le 28 mars 2018. 
+  </div>
+</div>
+
+
+<video preload="auto" autoplay="autoplay" loop="loop" style="width: 400px; height: 400px;">
+    <source src="https://i.imgur.com/ANNHDVi.mp4" type="video/webm"></source>
+</video>
+
+
+</div>
+
+
+
+ <p class="texte">
 La release du jeu s'est bien passée, mais les résultats commerciaux sont insuffisants pour en vivre.
 J'ai envisagé de trouver un emploi qui me permettrait de rejoindre une équipe et faire du développement 
 informatique, mais je manque de certaines connaissances ou compétences (la première étant de ne connaitre
@@ -130,6 +399,25 @@ aucun langage de programmation). Dans ce contexte, la formation du Cefim parait 
 au niveau des standards professionnels, et avoir la chance de travailler rapidement.  
 </p>
 
+<br/><br/><br/><br/><br/><br/><br/><br/>
+ 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
 </body>
 </html>
