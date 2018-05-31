@@ -2,3 +2,8 @@ body {
   font-size: 3em;
   color: black;
 }
+
+.middle {
+  text-align: left;
+  border: solid;
+}
