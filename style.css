@@ -1,9 +1,14 @@
+body {
+    margin: auto;
+  width: 50%;
+}
 
+/*
 .middle {
 
   width: 500px;
   height: auto;
 
-  /* distance entre paragraphes */
   margin: 20px 0 20px 0;
 }
+*/
